@@ -75,7 +75,7 @@ else:
 
 # Training and evaluation process
 for day in DAYS:
-    for d in range(START_DAY - 1, START_DAY):
+    for d in range(START_DAY - 1, END_DAY):
         # Logs the actual verification day
         logger.info(str(day) + "/" + dates[d].strftime('%Y-%m-%d'))
 
